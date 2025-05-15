@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+}
+
+
+/* HOME PAGE */
+
+.home-page{
+    background-color: black;
+    color:white;
+
+    display:flex;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.home-page-text{
+    padding-left:5%;
+    font-family: "Orbitron", sans-serif;
+    font-size:1rem;
+
+    display: flex;
+    flex-flow: column;
+    gap:0.5rem;
+
+}
+
+#main-heading{
+    font-size:3.2rem;
+}
+
+.home-page img{
+    width:65%;
+    position:relative;
+    right:-15%;
+    bottom:-25%;
+}
+
+/* FILTERS SECTION */
+
+
+.find-section{
+    background-color: black;
+    color:white;
+    padding:5%;
+    padding-top:1%;
+}
+
+.form-container{
+    border:1px solid white;
+    margin:5%;
+    padding:3%;
+}
+
+
+.form-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.first-query-label{
+    font-family: "Orbitron", sans-serif;
+    margin-right:30px;
+    font-size:2rem;
+}
+
+
+/* RESULTS SECTION */
+
+.response-container{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    padding:3%;
+}
+
+.response{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Orbitron", sans-serif;
+    font-size: 2rem;
+    gap:1rem;
+}
+
+.row-div{
+    border:1px solid white;
+}
+
+.response-text{
+    display: flex;
+    flex-flow: column;
+    gap:1rem;
+    width:100%;
+}
+
+.result-img{
+    width:90%;
+}
+
+.img-col{
+    border-right:1px solid white;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.text-col{
+    border-left: 1px solid white;
+}
+
+
+.car-title{
+    text-align: center;
+    background-color: white;
+    color:black;
+}
+
+.car-title p{
+    margin-bottom: 0px;
+}
+
+.details{
+    font-size: 1.3rem;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+    padding:30px;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: gray;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+    padding:15px;
+    margin:0px;
+    width:100%;
+    text-align: center;
+}
+
+footer p{
+    padding:0px;
+    margin:0px;
+}
+
